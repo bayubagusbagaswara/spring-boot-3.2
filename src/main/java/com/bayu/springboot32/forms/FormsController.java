@@ -17,7 +17,7 @@ public class FormsController {
 
     private static final Logger log = LoggerFactory.getLogger(FormsController.class);
 
-    private ConvertKitProperties ckProps;
+    private final ConvertKitProperties ckProps;
     private final RestClient restClient;
 
     public FormsController(ConvertKitProperties ckProps) {
